@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>border-radius hello world</title>
+    <style>
+        html {
+            height: 100%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: calc(100vh * 1080 / 1920);
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin: 0;
+        }
+        body div {
+            flex: 1;
+        }
+        #row1 {
+            display: grid;
+            place-items: center;
+            background: #FFDC00;
+        }
+        #row1 input {
+            font-size: xx-large;
+        }
+        #row2 {
+            background: #7FDBFF;
+        }
+        #row3 {
+            background: #39CCCC;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Make sure to use Lodash full build. The core build does not include `debounce` -->
+    <script src="./node_modules/lodash/lodash.js"></script>
+    <div id="row1"><input type="text" /></div>
+    <div id="row2"></div>
+    <div id="row3"></div>
+    <script>
+        function queryDatabase(outputSelector) {
+            let value = document.querySelector('input').value;
+            let outputDiv = document.querySelector(outputSelector);
+            // outputDiv.innerHTML = '';
+            outputDiv.appendChild(document.createTextNode(`Search for '${value}' on database`));
+            outputDiv.appendChild(document.createElement('br'));
+        }
+        document.querySelector('input').addEventListener('keyup', () => queryDatabase('#row2'));
+        document.querySelector('input').addEventListener('keyup', _.debounce(() => queryDatabase('#row3'), 200));
+    </script>
+</body>
+
+</html>

@@ -1,2 +1,3 @@
-# 100-days-of-code-js
-#100daysofcode challenge JavaScript/TypeScript version
+# #100DaysOfCode challenge (JavaScript version)
+
+1. [Lodash: debounce](snippets/001-debounce.html)
