@@ -14,7 +14,7 @@ open 001-debounce.html
 
 ## Day 2
 
-Create first Angular project:
+Create my first Angular project:
 
 ```
 npm install -g @angular/cli
@@ -25,8 +25,11 @@ ng serve --open
 
 ## Day 3
 
-Create an Angular component:
+Create two components Angular component:
 
 ```
+ng generate component table-of-content
 ng generate component form-sample
 ```
+
+And setting up the Angular router to switch between the two.
