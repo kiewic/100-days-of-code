@@ -1,4 +1,4 @@
-# #100DaysOfCode + JavaScript
+# #100DaysOfCode && JavaScript
 
 ## Day 1
 
@@ -21,4 +21,12 @@ npm install -g @angular/cli
 ng new my-first-project --skip-tests
 cd my-first-project
 ng serve --open
+```
+
+## Day 3
+
+Create an Angular component:
+
+```
+ng generate component form-sample
 ```
