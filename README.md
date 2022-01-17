@@ -14,7 +14,7 @@ open 001-debounce.html
 
 ## Day 2
 
-Create my first Angular project:
+Create my first Angular project (using the Angular CLI):
 
 ```
 npm install -g @angular/cli
@@ -33,3 +33,16 @@ ng generate component form-sample
 ```
 
 And setting up the Angular router to switch between the two.
+
+## Day 4
+
+Deploy my Angular project to Firebase hosting:
+
+```
+cd my-first-project
+ng build
+firebase use --add
+firebase deploy
+```
+
+It is important to notice the rewrites rule in the [firebase.json](./my-first-project/firebase.json) file

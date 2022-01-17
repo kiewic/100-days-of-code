@@ -1,0 +1,201 @@
+{
+  "hosting": {
+    "public": "dist/my-first-project",
+    "cleanUrls": true,
+    "redirects": [{
+        "source": "/web-development",
+        "destination": "https://kiewic.github.io/web-development",
+        "type": 301
+      },
+      {
+        "source": "/data-visualization",
+        "destination": "https://kiewic.github.io/data-visualization",
+        "type": 301
+      },
+      {
+        "source": "/best-tweets",
+        "destination": "https://kiewic.github.io/best-tweets",
+        "type": 301
+      },
+      {
+        "source": "/funny-tweets",
+        "destination": "https://kiewic.github.io/funny-tweets",
+        "type": 301
+      },
+      {
+        "source": "/ts",
+        "destination": "https://kiewic.github.io/ts",
+        "type": 301
+      },
+      {
+        "source": "/powerbi-desktop",
+        "destination": "https://kiewic.github.io/powerbi-desktop",
+        "type": 301
+      },
+      {
+        "source": "/software-news",
+        "destination": "https://kiewic.github.io/software-news",
+        "type": 301
+      },
+      {
+        "source": "/js",
+        "destination": "https://kiewic.github.io/js",
+        "type": 301
+      },
+      {
+        "source": "/metro-y-metrobus-cdmx-app",
+        "destination": "https://kiewic.github.io/metro-y-metrobus-cdmx-app",
+        "type": 301
+      },
+      {
+        "source": "/mocoyoyo-messenger-bot",
+        "destination": "https://kiewic.github.io/mocoyoyo-messenger-bot",
+        "type": 301
+      },
+      {
+        "source": "/pin-custom-tiles-to-windows-start-menu",
+        "destination": "https://kiewic.github.io/pin-custom-tiles-to-windows-start-menu",
+        "type": 301
+      },
+      {
+        "source": "/excel-csv",
+        "destination": "https://kiewic.github.io/excel-csv",
+        "type": 301
+      },
+      {
+        "source": "/aws-sdk-dynamodb",
+        "destination": "https://kiewic.github.io/aws-sdk-dynamodb",
+        "type": 301
+      },
+      {
+        "source": "/validate-x-hub-signatue",
+        "destination": "https://kiewic.github.io/validate-x-hub-signature",
+        "type": 301
+      },
+      {
+        "source": "/wcf-basics",
+        "destination": "https://kiewic.github.io/wcf-basics",
+        "type": 301
+      },
+      {
+        "source": "/custom-shapes-in-the-power-bi-waffle-chart",
+        "destination": "https://kiewic.github.io/custom-shapes-in-the-power-bi-waffle-chart",
+        "type": 301
+      },
+      {
+        "source": "/getting-started-with-aspnet-webapi-odata",
+        "destination": "https://kiewic.github.io/getting-started-with-aspnet-webapi-odata",
+        "type": 301
+      },
+      {
+        "source": "/get-a-free-ssl-tls-compatible-certificate-with-lets-encrypt-and-use-in-windows",
+        "destination": "https://kiewic.github.io/get-a-free-ssl-tls-compatible-certificate-with-lets-encrypt-and-use-in-windows",
+        "type": 301
+      },
+      {
+        "source": "/accessing-entity-framework-database",
+        "destination": "https://kiewic.github.io/accessing-entity-framework-database",
+        "type": 301
+      },
+      {
+        "source": "/2015-11-24/how-to-use-windows-10-runtime-store-universal-apis-in-desktop-console-apps",
+        "destination": "https://kiewic.github.io/how-to-use-windows-10-runtime-store-universal-apis-in-desktop-console-apps",
+        "type": 301
+      },
+      {
+        "source": "/2015-10-11/set-a-breakpoint-in-managed-code-cs-using-windbg",
+        "destination": "https://kiewic.github.io/set-a-breakpoint-in-managed-code-cs-using-windbg",
+        "type": 301
+      },
+      {
+        "source": "/2015-10-10/ftpwebrequest-alternative-for-windows-universal-and-windows-store-apps",
+        "destination": "https://kiewic.github.io/ftpwebrequest-alternative-for-windows-universal-and-windows-store-apps",
+        "type": 301
+      },
+      {
+        "source": "/2015-08-16/windows-runtime-hresult-table",
+        "destination": "https://kiewic.github.io/windows-runtime-hresult-table",
+        "type": 301
+      },
+      {
+        "source": "/2015-06-12/windbg",
+        "destination": "https://kiewic.github.io/windbg",
+        "type": 301
+      },
+      {
+        "source": "/2015-01-12/read-from-infinite-online-stream-using-windows-web-http-httpclient",
+        "destination": "https://kiewic.github.io/read-from-infinite-online-stream-using-windows-web-http-httpclient",
+        "type": 301
+      },
+      {
+        "source": "/2014-11-04/how-to-get-the-response-content-of-a-background-transfer-downloadoperation-when-the-result-is-not-200-ok",
+        "destination": "https://kiewic.github.io/how-to-get-the-response-content-of-a-background-transfer-downloadoperation-when-the-result-is-not-200-ok",
+        "type": 301
+      },
+      {
+        "source": "/2014-10-23/how-to-send-text-json-or-files-using-httpclient-postasync",
+        "destination": "https://kiewic.github.io/how-to-send-text-json-or-files-using-httpclient-postasync",
+        "type": 301
+      },
+      {
+        "source": "/2014-09-17/how-to-kill-or-terminate-a-process-in-kernel-debugger",
+        "destination": "https://kiewic.github.io/how-to-kill-or-terminate-a-process-in-kernel-debugger",
+        "type": 301
+      },
+      {
+        "source": "/2014-08-16/weakref-in-wrl",
+        "destination": "https://kiewic.github.io/weakref-in-wrl",
+        "type": 301
+      },
+      {
+        "source": "/2014-07-26/win32-mutex-handles-and-windbg-handle-extension",
+        "destination": "https://kiewic.github.io/win32-mutex-handles-and-windbg-handle-extension",
+        "type": 301
+      },
+      {
+        "source": "/2014-06-21/windbg-go-up-gu-without-hitting-any-other-breakpoint",
+        "destination": "https://kiewic.github.io/windbg-go-up-gu-without-hitting-any-other-breakpoint",
+        "type": 301
+      },
+      {
+        "source": "/2014-06-11/make-a-permanent-command-line-alias-for-notepad-in-windows",
+        "destination": "https://kiewic.github.io/make-a-permanent-command-line-alias-for-notepad-in-windows",
+        "type": 301
+      },
+      {
+        "source": "/2014-06-01/emoji-characters-in-all-browsers-running-on-windows",
+        "destination": "https://kiewic.github.io/emoji-characters-in-all-browsers-running-on-windows",
+        "type": 301
+      },
+      {
+        "source": "/2014-04-01/httpmultipartformdatacontent-vs-httpmultipartcontent",
+        "destination": "https://kiewic.github.io/httpmultipartformdatacontent-vs-httpmultipartcontent",
+        "type": 301
+      },
+      {
+        "source": "/2013-04-26/what-is-system-diagnostics-debug-writeline-equivalent-in-cpp-cx-and-javascript",
+        "destination": "https://kiewic.github.io/what-is-system-diagnostics-debug-writeline-equivalent-in-cpp-cx-and-javascript",
+        "type": 301
+      },
+      {
+        "source": "/paths",
+        "destination": "https://kiewic.github.io/paths",
+        "type": 301
+      },
+      {
+        "source": "/privacy",
+        "destination": "https://kiewic.github.io/privacy",
+        "type": 301
+      },
+      {
+        "source": "/feed",
+        "destination": "https://kiewic.github.io/feed",
+        "type": 301
+      }
+    ],
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
