@@ -46,3 +46,14 @@ firebase deploy
 ```
 
 It is important to notice the rewrites rule in the [firebase.json](./my-first-project/firebase.json) file
+
+## Day 5
+
+Add an HTML form to later interact with it using property bindings.
+
+Some highlights include:
+
+* The `transition` CSS property used to animate the fields on focus
+* The `:host` Angular pseudo-class selector
+* The `type="email"` and `type="tel"` HTML attributes to display different keyboards on mobile devices
+* The `@media` CSS at-rule used to make the website responsive
