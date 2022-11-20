@@ -25,7 +25,7 @@ ng serve --open
 
 ## Day 3
 
-Create two components Angular component:
+Create two Angular components:
 
 ```
 ng generate component table-of-content
@@ -57,3 +57,7 @@ Some highlights include:
 * The `:host` Angular pseudo-class selector
 * The `type="email"` and `type="tel"` HTML attributes to display different keyboards on mobile devices
 * The `@media` CSS at-rule used to make the website responsive
+
+## Day 6
+
+* The `HostListener` decorator listens for a DOM event and calls a handler method
