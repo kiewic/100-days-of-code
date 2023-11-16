@@ -61,3 +61,13 @@ Some highlights include:
 ## Day 6
 
 * The `HostListener` decorator listens for a DOM event and calls a handler method
+
+## Firebase Troubleshooting
+
+```
+firebase logout
+firebase login
+firebase use <project id>
+ng build
+firebase deploy
+```
