@@ -1,0 +1,8 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+svg {
+  border: 1px solid lightblue;
+}
