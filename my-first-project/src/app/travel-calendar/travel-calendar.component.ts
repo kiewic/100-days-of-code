@@ -259,6 +259,7 @@ export class TravelCalendarComponent implements AfterViewInit {
 
   private margin = { top: 20, right: 20, bottom: 30, left: 100 };
   private months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  private padding = 4; // Padding between city rows
 
   constructor() { }
 
@@ -308,15 +309,15 @@ export class TravelCalendarComponent implements AfterViewInit {
       .domain([0, 30]); // Adjust the domain based on your temperature data
 
     // Create heatmap rectangles
-    cities.forEach(city => {
+    cities.forEach((city) => {
       const drynessData = this.data[city].Dryness_Per_Month;
       const temperatureData = this.data[city].Average_Temperatures;
 
       this.months.forEach(month => {
         const xPos = x(month);
-        const yPos = y(city)!;
+        const yPos = y(city) + (this.padding / 2); // Add padding between rows
         const rectWidth = x.bandwidth();
-        const rectHeight = y.bandwidth() / 2; // Half height for each rectangle
+        const rectHeight = (y.bandwidth() - this.padding) / 2; // Adjust height to include padding
 
         // Dryness rectangle
         svg.append('rect')
