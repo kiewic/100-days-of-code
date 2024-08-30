@@ -11,3 +11,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## DOM Structure
+
+```
+index.html
+  app.component.html
+    <router-outlet></router-outlet>
+      table-of-content
+        window-info
+      form-sample
+```
